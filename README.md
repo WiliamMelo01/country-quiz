@@ -8,8 +8,6 @@ Trata-se de um aplicativo de quiz que permite aos usuários testarem seus conhec
 
 Com esse aplicativo, os usuários têm a opção de responder perguntas sobre as capitais de cidades ou as bandeiras de países. Eles podem selecionar uma resposta e receber imediatamente um feedback sobre sua escolha, informando se acertaram ou erraram.
 
-Quando os usuários respondem corretamente, podem passar para a próxima pergunta e continuar testando seus conhecimentos. Se responderem incorretamente, eles verão seus resultados e poderão tentar novamente para melhorar seu desempenho.
-
 Espero que tenham gostado da solução que desenvolvi para o desafio do DevChallenges.io. Foi uma experiência incrível trabalhar nesse projeto e espero que ele possa ser útil para quem deseja aprender geografia de uma forma divertida e educativa.
 
 
