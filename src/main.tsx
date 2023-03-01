@@ -7,7 +7,7 @@ import "./index.css";
 import ScoreProvider from "./context/score";
 import SelectedOptionProvider from "./context/selectedOption";
 import { BrowserRouter } from "react-router-dom";
-import MainRoutes from "./Routes/Mainroutes";
+import MainRoutes from "./Routes/MainRoutes";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>

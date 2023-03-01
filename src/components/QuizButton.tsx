@@ -36,22 +36,25 @@ export default function QuizButton({
 
   return (
     <button
-      className={`w-full h-14 border-2 border-[#6066D0B2] text-[#6066D0CC] rounded-xl flex hover:bg-[#F9A826] hover:text-white transition hover:border-none ${className}`}
+      className={`w-full h-14 border-2 border-purple-500 text-purple-500 rounded-xl flex hover:bg-[#F9A826] hover:text-white transition  ${className}`}
+      type="button"
       style={{
-        background:
+        backgroundColor:
           selected === option
             ? option === quizData.currentQuestion.answer
               ? "#60BF88"
               : "#EA8282"
-            : selected &&
-              option === quizData.currentQuestion.answer &&
-              "#60BF88",
+            : selected && option === quizData.currentQuestion.answer
+            ? "#60BF88"
+            : "transparent",
         color:
           selected === option && option === quizData.currentQuestion.answer
             ? "white"
             : selected === option && option !== quizData.currentQuestion.answer
             ? "white"
-            : selected && option === quizData.currentQuestion.answer && "white",
+            : selected && option === quizData.currentQuestion.answer
+            ? "white"
+            : "#6066D0CC",
       }}
       disabled={!!selected}
       onClick={handleclick}

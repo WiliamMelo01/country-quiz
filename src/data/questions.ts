@@ -1,59 +1,111 @@
 export const data = [
   {
-    question: "Qual é a capital do Brasil?",
-    options: ["Rio de Janeiro", "Brasília", "São Paulo", "Belo Horizonte"],
-    answer: "Brasília",
+    question: "Qual é a cidade que é a capital da Argentina?",
+    options: ["Buenos Aires", "Montevidéu", "Santiago", "Lima"],
+    answer: "Buenos Aires",
   },
   {
-    question: "Qual é a bandeira da Argentina?",
-    options: [
-      "Verde e amarela",
-      "Branca e azul",
-      "Azul e amarela",
-      "Vermelha e branca",
-    ],
-    answer: "Branca e azul",
+    question: "Essa bandeira pertence a qual país?",
+    options: ["Dinamarca", "Suíça", "Noruega", "Finlândia"],
+    answer: "Suíça",
+    image: "https://flagpedia.net/data/flags/w580/ch.png",
+  },
+
+  {
+    question: "Qual é a cidade que é a capital do Egito?",
+    options: ["Cairo", "Alexandria", "Giza", "Luxor"],
+    answer: "Cairo",
   },
   {
-    question: "Qual é o maior país do mundo em área territorial?",
-    options: ["Rússia", "Canadá", "China", "Estados Unidos"],
-    answer: "Rússia",
+    question: "Essa bandeira pertence a qual país?",
+    options: ["Japão", "China", "Coreia do Sul", "Vietnã"],
+    answer: "China",
+    image: "https://flagpedia.net/data/flags/w580/cn.webp",
+  },
+
+  {
+    question: "Qual é a cidade que é a capital do Reino Unido?",
+    options: ["Paris", "Madri", "Londres", "Dublin"],
+    answer: "Londres",
   },
   {
-    question: "Qual é o país conhecido como a terra dos cangurus?",
-    options: ["Austrália", "Nova Zelândia", "Indonésia", "Papua Nova Guiné"],
-    answer: "Austrália",
+    question: "Essa bandeira pertence a qual país?",
+    options: ["Japão", "Coreia do Norte", "China", "Vietnã"],
+    answer: "Japão",
+    image: "https://flagpedia.net/data/flags/w580/jp.webp",
+  },
+
+  {
+    question: "Qual é a cidade que é a capital da África do Sul?",
+    options: ["Cidade do Cabo", "Pretória", "Joanesburgo", "Durban"],
+    answer: "Pretória",
+  },
+
+  {
+    question: "Essa bandeira pertence a qual país?",
+    options: ["Irã", "Afeganistão", "Líbano", "Sri Lanka"],
+    answer: "Sri Lanka",
+    image: "https://flagpedia.net/data/flags/w580/lk.webp",
   },
   {
-    question: "Em qual país está localizada a Torre Eiffel?",
-    options: ["França", "Espanha", "Alemanha", "Itália"],
-    answer: "França",
+    question: "Qual é a cidade que é a capital do Peru?",
+    options: ["Bogotá", "Lima", "Caracas", "Quito"],
+    answer: "Lima",
   },
+
   {
-    question: "Qual é a capital do Japão?",
-    options: ["Tóquio", "Quioto", "Osaka", "Hiroshima"],
-    answer: "Tóquio",
+    question: "Essa bandeira pertence a qual país?",
+    options: ["Alemanha", "Espanha", "México", "Estados Unidos"],
+    answer: "México",
+    image: "https://flagpedia.net/data/flags/w580/mx.webp",
   },
+
   {
-    question:
-      "Qual é o país que tem como símbolo a folha de bordo na bandeira?",
-    options: ["Canadá", "Estados Unidos", "Austrália", "Nova Zelândia"],
+    question: "Qual é a cidade que é a capital da Austrália?",
+    options: ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    answer: "Canberra",
+  },
+
+  {
+    question: "Essa bandeira pertence a qual país?",
+    options: ["Canadá", "Estados Unidos", "México", "Brasil"],
     answer: "Canadá",
+    image: "https://flagpedia.net/data/flags/w580/ca.webp",
   },
   {
-    question: "Qual é o país que tem o maior número de pirâmides?",
-    options: ["Egito", "México", "Peru", "China"],
-    answer: "Egito",
+    question: "Qual é a cidade que é a capital da Nigéria?",
+    options: ["Lagos", "Abuja", "Ibadan", "Kano"],
+    answer: "Abuja",
   },
   {
-    question: "Qual é o país que tem o maior número de ilhas?",
-    options: ["Indonésia", "Filipinas", "Japão", "Maldivas"],
-    answer: "Indonésia",
+    question: "Qual é a cidade que é a capital da Rússia?",
+    options: ["São Petersburgo", "Moscovo", "Vladivostok", "Sochi"],
+    answer: "Moscovo",
   },
+
   {
-    question:
-      "Qual é o país que tem a maior extensão territorial da América do Sul?",
-    options: ["Brasil", "Argentina", "Colômbia", "Peru"],
-    answer: "Brasil",
+    question: "Qual é a cidade que é a capital da Índia?",
+    options: ["Mumbai", "Nova Deli", "Bangalore", "Chennai"],
+    answer: "Nova Deli",
+  },
+
+  {
+    question: "Essa bandeira pertence a qual país?",
+    options: ["Somália", "Níger", "Etiópia", "Tanzânia"],
+    answer: "Somália",
+    image: "https://flagpedia.net/data/flags/w580/so.webp",
+  },
+
+  {
+    question: "Qual é a cidade que é a capital da Alemanha?",
+    options: ["Hamburgo", "Munique", "Berlim", "Colónia"],
+    answer: "Berlim",
+  },
+
+  {
+    question: "Essa bandeira pertence a qual país?",
+    options: ["Líbia", "Marrocos", "Egito", "Sudão"],
+    answer: "Líbia",
+    image: "https://flagpedia.net/data/flags/w580/ly.webp",
   },
 ];

@@ -29,16 +29,19 @@ export default function Home() {
   }
   return (
     <div className="w-full h-full flex flex-col items-center justify-center bg-quiz bg-center font-poppins font-medium">
-      <h1 className="w-[464px] text-left text-3xl text-white uppercase mb-4 font-bold">
+      <h1 className="w-[464px] text-left text-3xl text-[#FFF] uppercase mb-4 font-bold">
         Country Quiz
       </h1>
-      <div className="w-[464px] min-h-[515px] bg-white rounded-3xl py-16 px-8 flex flex-col relative">
+      <div className="w-[464px] min-h-[515px] bg-[#FFF] rounded-3xl py-16 px-8 flex flex-col relative">
         <img
           src={UndrawAdventureImage}
           alt="Undraw adventure image"
           className="absolute -top-20 right-0"
         />
-        <Question question={quizData.currentQuestion.question} />
+        <Question
+          question={quizData.currentQuestion.question}
+          image={store.getState().quizSlice.currentQuestion.image}
+        />
         <div className="flex flex-1 flex-col justify-center gap-[25px]">
           {options.map((option, index) => {
             return (

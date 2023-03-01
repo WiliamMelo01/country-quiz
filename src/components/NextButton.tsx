@@ -34,7 +34,7 @@ export default function NextButton() {
 
   return (
     <button
-      className="h-full w-[116px] bg-[#F9A826] rounded-xl"
+      className="h-full w-[116px] bg-yellow-500 rounded-xl"
       onClick={handleClick}
     >
       Next

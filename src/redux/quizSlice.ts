@@ -4,6 +4,7 @@ import { data } from "../data/questions";
 type questions = {
   question: string;
   options: string[];
+  image?: string;
   answer: string;
 }[];
 
